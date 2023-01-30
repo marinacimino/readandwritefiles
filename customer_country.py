@@ -7,7 +7,7 @@ customers = csv.reader(infile, delimiter=",")
 next(customers)
 
 outfile.write("Last Name" + ", " + "First Name" + ", " + "Country" + "\n")
-outfile.write("____________________________________________________" + "\n")
+# outfile.write("____________________________________________________" + "\n")
 
 for x in customers:
     last_name = x[1]

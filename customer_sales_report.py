@@ -7,7 +7,7 @@ sales = csv.reader(infile, delimiter=",")
 next(sales)
 
 outfile.write("Customer ID" + ", " + "Calculated Total" + "\n")
-outfile.write("____________________________________________________" + "\n")
+# outfile.write("____________________________________________________" + "\n")
 
 cust_total = 0
 customer_id = ""
